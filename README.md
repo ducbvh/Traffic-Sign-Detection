@@ -20,9 +20,9 @@ The models used in this project are trained on the following pretrained models:
 
 ## Results
 The following table sums up the results for our models:
-|Model|mAP@[.5:.95] validation|mAP@[.5:.95] public test| FPS|
+|Model|mAP@[.5:.95] validation|mAP@[.5:.95] public test|FPS|
 |-|-|-|
-|YOLO v5 small| 37.3| 32.4| 23.0
-|YOLO v5 medium| 38.5| 36.7| 22.1
-|YOLO v5 large |42.7 |37.5| 20.2
-|SSD MobileNet |12.1 |9.8| 18.5
+|YOLO v5 small| 37.3| 32.4| 23.0|
+|YOLO v5 medium| 38.5| 36.7| 22.1|
+|YOLO v5 large |42.7 |37.5| 20.2|
+|SSD MobileNet |12.1 |9.8| 18.5|
