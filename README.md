@@ -12,7 +12,7 @@ Dataset discovery in [EDA](https://github.com/ducbvh)
 ### Structure of dataset
 Dataset contains:
 *  csv annotation files for training set, validation set and test set, 
-    *  `label_map.pbtxt` for TF2 object detection API
+*  `label_map.pbtxt` for TF2 object detection API
     
 ## Models
 The models used in this project are trained on the following pretrained models:
@@ -39,8 +39,7 @@ The following table sums up the results for our models:
 * `models`: contains Jupyter notebook file on how to train and evaluate the models
     *  `Train_MobilenetV2.ipynb`: Train MobilenetV2
     *  `Train_YoloV5.ipynb`: Train YoloV5
-* `EDA`: contains 
-    *  exploratory data analysis result
+* `EDA`: contains noteboook exploratory data analysis result
     *  `YoloV5_conversion.ipynb`: format data for train YoloV5
     *  `data_processing.ipynb`: data explore and analysis
     *  `data_reduce.ipynb`: removing boxes with area smaller than 40
