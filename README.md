@@ -40,9 +40,9 @@ The following table sums up the results for our models:
     *  csv annotation files for training set, validation set and test set, 
     *  `label_map.pbtxt` for TF2 object detection API
     *  exploratory data analysis result
-      *  `YoloV5_conversion.ipynb`: format data for train YoloV5
-      *  `data_processing.ipynb`: data explore and analysis
-      *  `data_reduce.ipynb`: removing boxes with area smaller than 40
+    *  `YoloV5_conversion.ipynb`: format data for train YoloV5
+    *  `data_processing.ipynb`: data explore and analysis
+    *  `data_reduce.ipynb`: removing boxes with area smaller than 40
 * `saved_models`: contains saved models or weights for models.
 * `results`: contains some inference results
 
