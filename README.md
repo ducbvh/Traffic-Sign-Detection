@@ -3,7 +3,7 @@ ZaloAI Challenge 2020 - Vietnam traffic sign
 
 
 # Datasets
-Download Datasets: ```!kaggle datasets download -d hongduc4/traffic-sign-detection-zalo-challenge-2020```
+Download Datasets: ```! kaggle datasets download -d hongduc4/traffic-sign-detection-zalo-challenge-2020 ```
 
 Link Dataset Kaggle: [Link](www.kaggle.com/datasets/hongduc4/traffic-sign-detection-zalo-challenge-2020)
 
