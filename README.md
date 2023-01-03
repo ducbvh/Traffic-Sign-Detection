@@ -10,4 +10,10 @@ Link Dataset Kaggle: [Link](www.kaggle.com/datasets/hongduc4/traffic-sign-detect
 Dataset discovery in [EDA](https://github.com/ducbvh)
 
 ## Models
-In this competition, I trained on 2 models, YoloV5 and SSD-MobileNet. You can find notebooks for training in the [Models](https://github.com/ducbvh)
+The models used in this project are trained on the following pretrained models:
+* YOLOv5 small ([Ultralytics](https://github.com/ultralytics/yolov5))
+* YOLOv5 medium ([Ultralytics](https://github.com/ultralytics/yolov5))
+* YOLOv5 large ([Ultralytics](https://github.com/ultralytics/yolov5))
+* SSD MobileNet 320x320 ([Tensorflow object detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md))
+
+ You can find notebooks for training in the [Models](https://github.com/ducbvh)
