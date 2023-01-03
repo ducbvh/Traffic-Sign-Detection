@@ -1,5 +1,4 @@
 # Traffic-Sign-Detection
-## Overview
 ZaloAI Challenge 2020 - Vietnam traffic sign 
 
 ## Datasets
