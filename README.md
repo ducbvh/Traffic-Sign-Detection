@@ -1,6 +1,6 @@
 # Traffic-Sign-Detection
-ZaloAI Challenge 2020 - Vietnam traffic sign
-
+##Overview
+ZaloAI Challenge 2020 - Vietnam traffic sign 
 
 ## Datasets
 Download Datasets: ```! kaggle datasets download -d hongduc4/traffic-sign-detection-zalo-challenge-2020 ```
@@ -19,19 +19,32 @@ The models used in this project are trained on the following pretrained models:
  You can find notebooks for training in the [Models](https://github.com/ducbvh)
 
 ## Results
-
 The following table sums up the results for our models:
-|Model|mAP@[.5:.95] validation|mAP@[.5:.95] public test|FPS|
-|-|-|-|-|
-|YOLO v5 small| 37.3| 32.4| 23.0|
-|YOLO v5 medium| 38.5| 36.7| 22.1|
-|YOLO v5 large |42.7 |37.5| 20.2|
-|SSD MobileNet |12.1 |9.8| 18.5|
-
-The following table sums up the results for our models:
-|Model|mAP@[.5:.95] validation|mAP@[.5:.95] public test|FPS|
+|Model|mAP@[.5:.95] validation|mAP@[.5:.95] public test|
 |-|-|-|
-|YOLO v5 small| 37.3| 32.4| 23.0|
-|YOLO v5 medium| 38.5| 36.7| 22.1|
-|YOLO v5 large |42.7 |37.5| 20.2|
-|SSD MobileNet |12.1 |9.8| 18.5|
+|YOLO v5 small| 39.3| 35.8|
+|YOLO v5 medium| 40.6| 38|
+|YOLO v5 large |40.5 |37.5|
+|SSD MobileNet |10.7 |7.77|
+|SSD ResNet50 FPN |46.7| 20.8|
+|EfficientDet D1 |13.2| 8.2|
+|Faster R-CNN Resnet50 |26.9 |14.5|
+
+
+
+## Structure of Reposity
+* `models`: contains Jupyter notebook file on how to train and evaluate the models
+    *  `Train_MobilenetV2.ipynb`: Train MobilenetV2
+    *  `Train_YoloV5.ipynb`: Train YoloV5
+* `data`: contains 
+    *  csv annotation files for training set, validation set and test set, 
+    *  `label_map.pbtxt` for TF2 object detection API
+    *  exploratory data analysis result
+    *  `YoloV5_conversion.ipynb`: format data for train YoloV5
+    *  `data_processing.ipynb`: data explore and analysis
+    *  `data_reduce.ipynb`: removing boxes with area smaller than 40
+* `saved_models`: contains saved models or weights for models.
+* `results`: contains some inference results
+
+
+
