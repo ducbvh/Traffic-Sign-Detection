@@ -20,15 +20,13 @@ The models used in this project are trained on the following pretrained models:
 
 ## Results
 The following table sums up the results for our models:
-|Model|mAP@[.5:.95] validation|mAP@[.5:.95] public test|
-|-|-|-|
-|YOLO v5 small| 39.3| 35.8|
-|YOLO v5 medium| 40.6| 38|
-|YOLO v5 large |40.5 |37.5|
-|SSD MobileNet |10.7 |7.77|
-|SSD ResNet50 FPN |46.7| 20.8|
-|EfficientDet D1 |13.2| 8.2|
-|Faster R-CNN Resnet50 |26.9 |14.5|
+|Model|mAP@[.5:.95] validation|mAP@[.5:.95] public test| FPS|
+|-|-|-|-|
+|YOLO v5 small| 37.8| 35.4|25.2|
+|YOLO v5 medium| 38.6| 37.2|23.5|
+|YOLO v5 large |42.7 |35.1|20.2|
+|SSD MobileNet |11.7|9.5|15.4|
+
 
 
 
