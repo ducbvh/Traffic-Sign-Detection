@@ -7,7 +7,7 @@ Download Datasets: ```! kaggle datasets download -d hongduc4/traffic-sign-detect
 
 Link Dataset Kaggle: [Link](www.kaggle.com/datasets/hongduc4/traffic-sign-detection-zalo-challenge-2020)
 
-Dataset discovery in [EDA](https://github.com/ducbvh)
+Dataset discovery in [EDA](https://github.com/ducbvh/Traffic-Sign-Detection/tree/main/EDA)
 
 ### Structure of dataset
 Dataset contains:
@@ -21,7 +21,7 @@ The models used in this project are trained on the following pretrained models:
 * YOLOv5 large ([Ultralytics](https://github.com/ultralytics/yolov5))
 * SSD MobileNet 320x320 ([Tensorflow object detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md))
 
- You can find notebooks for training in the [Models](https://github.com/ducbvh)
+ You can find notebooks for training in the [Models](https://github.com/ducbvh/Traffic-Sign-Detection/tree/main/Models)
 
 ## Results
 The following table sums up the results for our models:
